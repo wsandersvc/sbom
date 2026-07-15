@@ -1,0 +1,1950 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "annotations" : [ ],
+  "creationInfo" : {
+    "comment" : "Veracode SPDX SBOM",
+    "created" : "2026-07-15T14:31:33Z",
+    "creators" : [ "Tool: Veracode SPDX Tool" ],
+    "licenseListVersion" : "SPDX-2.3"
+  },
+  "dataLicense" : "CC0-1.0",
+  "externalDocumentRefs" : [ ],
+  "hasExtractedLicensingInfos" : [ ],
+  "name" : "Veracode SBOM for SPDX",
+  "revieweds" : [ ],
+  "spdxVersion" : "SPDX-2.3.1",
+  "documentNamespace" : "https://github.com/spdx/spdx-spec/e7005df4-7edf-4bbb-ad6f-cfbf45b34aae",
+  "documentDescribes" : [ ],
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.logging::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.logging@8.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.logging",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.netcore.targets::1.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.netcore.targets@1.1.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.netcore.targets",
+    "versionInfo" : "1.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.runtime::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.runtime@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.runtime",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:mono.texttemplating::2.2.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/mono.texttemplating@2.2.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "mono.texttemplating",
+    "versionInfo" : "2.2.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.text.encoding::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.text.encoding@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.text.encoding",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.diagnostics.diagnosticsource::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.diagnostics.diagnosticsource@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.diagnostics.diagnosticsource",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.runtime.interopservices::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.runtime.interopservices@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.runtime.interopservices",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:runtime.native.system::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/runtime.native.system@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "runtime.native.system",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.threading.timer::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.threading.timer@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.threading.timer",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.windows.extensions::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.windows.extensions@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.windows.extensions",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.net.requests::4.0.11:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.net.requests@4.0.11",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.net.requests",
+    "versionInfo" : "4.0.11"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.xml.readerwriter::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.xml.readerwriter@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.xml.readerwriter",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.runtime.serialization.primitives::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.runtime.serialization.primitives@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.runtime.serialization.primitives",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.diagnostics.tracesource::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.diagnostics.tracesource@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.diagnostics.tracesource",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.runtime.extensions::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.runtime.extensions@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.runtime.extensions",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.aspnetcore.identity.entityframeworkcore::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.aspnetcore.identity.entityframeworkcore@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.aspnetcore.identity.entityframeworkcore",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.primitives::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.primitives@8.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.primitives",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.codedom::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.codedom@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.codedom",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.runtime.interopservices.runtimeinformation::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.runtime.interopservices.runtimeinformation@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.runtime.interopservices.runtimeinformation",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.identity.stores::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.identity.stores@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.identity.stores",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.entityframeworkcore.analyzers::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.entityframeworkcore.analyzers@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.entityframeworkcore.analyzers",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.io::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.io@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.io",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:runtime.native.system.data.sqlclient.sni::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/runtime.native.system.data.sqlclient.sni@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "runtime.native.system.data.sqlclient.sni",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.globalization.extensions::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.globalization.extensions@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.globalization.extensions",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.collections.concurrent::4.0.12:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.collections.concurrent@4.0.12",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.collections.concurrent",
+    "versionInfo" : "4.0.12"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.cryptography.x509certificates::4.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "comment" : "{\"id\":\"CVE-2017-11770\",\"source\":{\"url\":\"https://nvd.nist.gov/vuln/detail/CVE-2017-11770\",\"name\":\"NVD\"},\"ratings\":[{\"score\":5.0,\"severity\":\"medium\",\"method\":\"CVSSv2\",\"vector\":\"AV:N/AC:L/Au:N/C:N/I:N/A:P\"},{\"score\":7.5,\"severity\":\"high\",\"method\":\"CVSSv3\",\"vector\":\"AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\"}],\"created\":1547543966306,\"updated\":1783778429180,\"cwes\":[295],\"description\":\"Denial Of Service (DoS) .NET Core is vulnerable to denial of service (DoS). The vulnerability is possible because an unauthenticated user can parse malicious certificate data to trigger the attack.\",\"properties\":[{\"name\":\"Veracode Vulnerability Database\",\"value\":\"https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-12606\"}]}",
+      "referenceCategory" : "SECURITY",
+      "referenceLocator" : "https://nvd.nist.gov/vuln/detail/CVE-2017-11770",
+      "referenceType" : "evidence"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.cryptography.x509certificates",
+    "versionInfo" : "4.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.entityframeworkcore.tools::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.entityframeworkcore.tools@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.entityframeworkcore.tools",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:runtime.win-x86.runtime.native.system.data.sqlclient.sni::4.4.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/runtime.win-x86.runtime.native.system.data.sqlclient.sni@4.4.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "runtime.win-x86.runtime.native.system.data.sqlclient.sni",
+    "versionInfo" : "4.4.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.collections::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.collections@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.collections",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.xml.xpath.xdocument::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.xml.xpath.xdocument@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.xml.xpath.xdocument",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.linq::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.linq@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.linq",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.reflection.typeextensions::4.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.reflection.typeextensions@4.1.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.reflection.typeextensions",
+    "versionInfo" : "4.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.net.webheadercollection::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.net.webheadercollection@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.net.webheadercollection",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.diagnostics.debug::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.diagnostics.debug@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.diagnostics.debug",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.cryptography.algorithms::4.2.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.cryptography.algorithms@4.2.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.cryptography.algorithms",
+    "versionInfo" : "4.2.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.xml.xmldocument::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.xml.xmldocument@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.xml.xmldocument",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.cryptography.encoding::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.cryptography.encoding@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.cryptography.encoding",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.resources.resourcemanager::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.resources.resourcemanager@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.resources.resourcemanager",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.cryptography.primitives::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.cryptography.primitives@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.cryptography.primitives",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:log4net::2.0.8:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "comment" : "{\"id\":\"CVE-2026-40021\",\"ratings\":[{\"score\":5.3,\"severity\":\"medium\",\"method\":\"CVSSv3\",\"vector\":\"AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N\"}],\"created\":1776488976015,\"published\":1775845878000,\"updated\":1783779491465,\"cwes\":[116],\"description\":\"Apache Log4net: Silent Log Event Loss In XmlLayout And XmlLayoutSchemaLog4J Due To Unescaped XML 1.0 Forbidden Character Apache Log4net's  XmlLayout https://logging.apache.org/log4net/manual/configuration/layouts.html#layout-list  and  XmlLayoutSchemaLog4J https://logging.apache.org/log4net/manual/configuration/layouts.html#layout-list , in versions before 3.3.0, fail to sanitize characters forbidden by the  XML 1.0 specification https://www.w3.org/TR/xml/#charsets  in MDC property keys and values, as well as the identity field that may carry attacker-influenced data. This causes an exception during serialization and the silent loss of the affected log event.\\nAn attacker who can influence any of these fields can exploit this to suppress individual log records, impairing audit trails and detection of malicious activity.\\nUsers are advised to upgrade to Apache Log4net 3.3.0, which fixes this issue.\",\"properties\":[{\"name\":\"Veracode Vulnerability Database\",\"value\":\"https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-166525\"}]}",
+      "referenceCategory" : "SECURITY",
+      "referenceLocator" : "NOASSERTION",
+      "referenceType" : "evidence"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Apache License 2.0 (Apache-2.0)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "log4net",
+    "versionInfo" : "2.0.8"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.aspnetcore.cryptography.keyderivation::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.aspnetcore.cryptography.keyderivation@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.aspnetcore.cryptography.keyderivation",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.runtime.numerics::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.runtime.numerics@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.runtime.numerics",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.dependencymodel::8.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.dependencymodel@8.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.dependencymodel",
+    "versionInfo" : "8.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.aspnetcore.identity.ui::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.aspnetcore.identity.ui@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.aspnetcore.identity.ui",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.caching.abstractions::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.caching.abstractions@8.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.caching.abstractions",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.fileproviders.embedded::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.fileproviders.embedded@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.fileproviders.embedded",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.threading.tasks::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.threading.tasks@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.threading.tasks",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.diagnostics.tracing::4.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.diagnostics.tracing@4.1.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.diagnostics.tracing",
+    "versionInfo" : "4.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.codeanalysis.csharp.workspaces::4.5.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.codeanalysis.csharp.workspaces@4.5.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.codeanalysis.csharp.workspaces",
+    "versionInfo" : "4.5.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:runtime.win-x64.runtime.native.system.data.sqlclient.sni::4.4.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/runtime.win-x64.runtime.native.system.data.sqlclient.sni@4.4.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "runtime.win-x64.runtime.native.system.data.sqlclient.sni",
+    "versionInfo" : "4.4.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.configuration.abstractions::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.configuration.abstractions@8.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.configuration.abstractions",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.accesscontrol::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.accesscontrol@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.accesscontrol",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.fileproviders.abstractions::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.fileproviders.abstractions@8.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.fileproviders.abstractions",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.diagnostics.tools::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.diagnostics.tools@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.diagnostics.tools",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.text.json::8.0.4:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "comment" : "{\"id\":\"CVE-2024-43485\",\"source\":{\"url\":\"https://nvd.nist.gov/vuln/detail/CVE-2024-43485\",\"name\":\"NVD\"},\"ratings\":[{\"score\":7.5,\"severity\":\"high\",\"method\":\"CVSSv3\",\"vector\":\"AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\"},{\"score\":7.1,\"severity\":\"high\",\"method\":\"srcclrCvss\",\"vector\":\"AV:N/AC:M/Au:N/C:N/I:N/A:C\"}],\"created\":1729145410152,\"updated\":1783779557771,\"description\":\"Denial Of Service (DoS) System.Text.Json is vulnerable to Denial Of Service (DoS). The vulnerability is due to deserializing input to a model with an ExtensionData property, which allows an attacker to consume excessive resources.\\n\\n\\n\\n\\n\\n\\n\",\"properties\":[{\"name\":\"Veracode Vulnerability Database\",\"value\":\"https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-49176\"}]}",
+      "referenceCategory" : "SECURITY",
+      "referenceLocator" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43485",
+      "referenceType" : "evidence"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.text.json",
+    "versionInfo" : "8.0.4"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.globalization.calendars::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.globalization.calendars@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.globalization.calendars",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.entityframeworkcore.abstractions::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.entityframeworkcore.abstractions@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.entityframeworkcore.abstractions",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.win32.registry::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.win32.registry@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.win32.registry",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.logging.log4net.aspnetcore::3.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.logging.log4net.aspnetcore@3.1.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Apache License 2.0 (Apache-2.0)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.logging.log4net.aspnetcore",
+    "versionInfo" : "3.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:runtime.win-arm64.runtime.native.system.data.sqlclient.sni::4.4.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/runtime.win-arm64.runtime.native.system.data.sqlclient.sni@4.4.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "runtime.win-arm64.runtime.native.system.data.sqlclient.sni",
+    "versionInfo" : "4.4.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.dependencyinjection.abstractions::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.dependencyinjection.abstractions@8.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.dependencyinjection.abstractions",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.options::8.0.2:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.options@8.0.2",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.options",
+    "versionInfo" : "8.0.2"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.cryptography.protecteddata::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.cryptography.protecteddata@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.cryptography.protecteddata",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:entityframework::6.4.4:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/entityframework@6.4.4",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Apache License 2.0 (Apache-2.0)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "entityframework",
+    "versionInfo" : "6.4.4"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.text.regularexpressions::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "comment" : "{\"id\":\"CVE-2019-0820\",\"source\":{\"url\":\"https://nvd.nist.gov/vuln/detail/CVE-2019-0820\",\"name\":\"NVD\"},\"ratings\":[{\"score\":5.0,\"severity\":\"medium\",\"method\":\"CVSSv2\",\"vector\":\"AV:N/AC:L/Au:N/C:N/I:N/A:P\"},{\"score\":7.5,\"severity\":\"high\",\"method\":\"CVSSv3\",\"vector\":\"AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\"}],\"created\":1557978527671,\"updated\":1783778591714,\"cwes\":[400],\"description\":\"Denial Of Service (DoS) .NET Core is vulnerable to denial of service (DoS). It is due to lack of timeouts enforcement for regular expressions.\",\"properties\":[{\"name\":\"Veracode Vulnerability Database\",\"value\":\"https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-20063\"}]}",
+      "referenceCategory" : "SECURITY",
+      "referenceLocator" : "https://nvd.nist.gov/vuln/detail/CVE-2019-0820",
+      "referenceType" : "evidence"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.text.regularexpressions",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.entityframeworkcore.design::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.entityframeworkcore.design@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.entityframeworkcore.design",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.win32.systemevents::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.win32.systemevents@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.win32.systemevents",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.globalization::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.globalization@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.globalization",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.configuration::3.1.2:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.configuration@3.1.2",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Apache License 2.0 (Apache-2.0)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.configuration",
+    "versionInfo" : "3.1.2"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.configuration.configurationmanager::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.configuration.configurationmanager@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.configuration.configurationmanager",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.threading::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.threading@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.threading",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.xml.xdocument::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.xml.xdocument@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.xml.xdocument",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.entityframeworkcore::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.entityframeworkcore@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.entityframeworkcore",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.aspnetcore.cryptography.internal::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.aspnetcore.cryptography.internal@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.aspnetcore.cryptography.internal",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.cryptography.csp::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.cryptography.csp@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.cryptography.csp",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.drawing.common::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "comment" : "{\"id\":\"CVE-2021-24112\",\"source\":{\"url\":\"https://nvd.nist.gov/vuln/detail/CVE-2021-24112\",\"name\":\"NVD\"},\"ratings\":[{\"score\":7.5,\"severity\":\"high\",\"method\":\"CVSSv2\",\"vector\":\"AV:N/AC:L/Au:N/C:P/I:P/A:P\"},{\"score\":9.8,\"severity\":\"critical\",\"method\":\"CVSSv3\",\"vector\":\"AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\"}],\"created\":1685080112246,\"updated\":1783786555594,\"description\":\"Remote Code Execution (RCE) System.Drawing.Common is vulnerable to Remote Code Execution (RCE). The vulnerability exists because the library does not add the reference count to the graphics metafiles, which allows an attacker to inject and execute malicious code by providing maliciously crafted graphic files. This vulnerability only exists on systems running on MacOS or Linux.\",\"properties\":[{\"name\":\"Veracode Vulnerability Database\",\"value\":\"https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-40696\"}]}",
+      "referenceCategory" : "SECURITY",
+      "referenceLocator" : "https://nvd.nist.gov/vuln/detail/CVE-2021-24112",
+      "referenceType" : "evidence"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.drawing.common",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.io.filesystem.primitives::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.io.filesystem.primitives@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.io.filesystem.primitives",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.threading.threadpool::4.0.10:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.threading.threadpool@4.0.10",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.threading.threadpool",
+    "versionInfo" : "4.0.10"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.net.sockets::4.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.net.sockets@4.1.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.net.sockets",
+    "versionInfo" : "4.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.cryptography.openssl::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.cryptography.openssl@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.cryptography.openssl",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.permissions::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.permissions@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.permissions",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.caching.memory::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "comment" : "{\"id\":\"CVE-2024-43483\",\"source\":{\"url\":\"https://nvd.nist.gov/vuln/detail/CVE-2024-43483\",\"name\":\"NVD\"},\"ratings\":[{\"score\":7.5,\"severity\":\"high\",\"method\":\"CVSSv3\",\"vector\":\"AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\"},{\"score\":7.1,\"severity\":\"high\",\"method\":\"srcclrCvss\",\"vector\":\"AV:N/AC:M/Au:N/C:N/I:N/A:C\"}],\"created\":1729154953820,\"updated\":1783786326596,\"description\":\"Denial Of Service (DoS) System.Security.Cryptography.Cose, System.IO.Packaging, and Microsoft.Extensions.Caching.Memory are vulnerable to Denial Of Service (DoS). The vulnerability is due to insufficient input validation and inadequate mechanisms to handle large datasets that allows to consume excessive resources.\",\"properties\":[{\"name\":\"Veracode Vulnerability Database\",\"value\":\"https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-49178\"}]}",
+      "referenceCategory" : "SECURITY",
+      "referenceLocator" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43483",
+      "referenceType" : "evidence"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.caching.memory",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.xml.xpath::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.xml.xpath@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.xml.xpath",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.appcontext::4.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.appcontext@4.1.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.appcontext",
+    "versionInfo" : "4.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.reflection::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.reflection@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.reflection",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.diagnostics.stacktrace::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.diagnostics.stacktrace@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.diagnostics.stacktrace",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.net.http::4.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "comment" : "{\"id\":\"CVE-2018-8292\",\"source\":{\"url\":\"https://github.com/dotnet/corefx/issues/26426\",\"name\":\"GitHub Issue\"},\"ratings\":[{\"score\":5.0,\"severity\":\"medium\",\"method\":\"CVSSv2\",\"vector\":\"AV:N/AC:L/Au:N/C:P/I:N/A:N\"},{\"score\":7.5,\"severity\":\"high\",\"method\":\"CVSSv3\",\"vector\":\"AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N\"}],\"created\":1539245796598,\"published\":1519171200000,\"updated\":1781872300949,\"cwes\":[200],\"description\":\"Information Disclosure System.Net.Http is vulnerable to an information disclosure. The library does not clear it's authentication headers during redirection, allowing a malicious user to use a redirect to gain access to information in the authentication header.\",\"properties\":[{\"name\":\"Veracode Vulnerability Database\",\"value\":\"https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-7599\"}]}",
+      "referenceCategory" : "SECURITY",
+      "referenceLocator" : "https://github.com/dotnet/corefx/issues/26426",
+      "referenceType" : "evidence"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.net.http",
+    "versionInfo" : "4.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.entityframeworkcore.relational::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.entityframeworkcore.relational@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.entityframeworkcore.relational",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:newtonsoft.json::13.0.3:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/newtonsoft.json@13.0.3",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "newtonsoft.json",
+    "versionInfo" : "13.0.3"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.net.primitives::4.0.11:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.net.primitives@4.0.11",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.net.primitives",
+    "versionInfo" : "4.0.11"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.net.nameresolution::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.net.nameresolution@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.net.nameresolution",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.aspnetcore.diagnostics.entityframeworkcore::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.aspnetcore.diagnostics.entityframeworkcore@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.aspnetcore.diagnostics.entityframeworkcore",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.threading.thread::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.threading.thread@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.threading.thread",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.cryptography.cng::4.2.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.cryptography.cng@4.2.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.cryptography.cng",
+    "versionInfo" : "4.2.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.identity.core::8.0.7:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.identity.core@8.0.7",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.identity.core",
+    "versionInfo" : "8.0.7"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:runtime.native.system.net.http::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/runtime.native.system.net.http@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "runtime.native.system.net.http",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.io.filesystem::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.io.filesystem@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.io.filesystem",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.runtime.handles::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.runtime.handles@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.runtime.handles",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.logging.abstractions::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.logging.abstractions@8.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.logging.abstractions",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.configuration.binder::3.1.2:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.configuration.binder@3.1.2",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Apache License 2.0 (Apache-2.0)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.configuration.binder",
+    "versionInfo" : "3.1.2"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.collections.nongeneric::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.collections.nongeneric@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.collections.nongeneric",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.reflection.primitives::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.reflection.primitives@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.reflection.primitives",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.extensions.dependencyinjection::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.extensions.dependencyinjection@8.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.extensions.dependencyinjection",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.threading.tasks.extensions::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.threading.tasks.extensions@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.threading.tasks.extensions",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.netcore.platforms::3.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.netcore.platforms@3.1.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.netcore.platforms",
+    "versionInfo" : "3.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.text.encodings.web::8.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.text.encodings.web@8.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.text.encodings.web",
+    "versionInfo" : "8.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:runtime.native.system.security.cryptography::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/runtime.native.system.security.cryptography@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "runtime.native.system.security.cryptography",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.reflection.extensions::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.reflection.extensions@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.reflection.extensions",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.win32.primitives::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.win32.primitives@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.win32.primitives",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.runtime.serialization.formatters::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.runtime.serialization.formatters@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.runtime.serialization.formatters",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:microsoft.csharp::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/microsoft.csharp@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "microsoft.csharp",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.threading.overlapped::4.0.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.threading.overlapped@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.threading.overlapped",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.diagnostics.process::4.1.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.diagnostics.process@4.1.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.diagnostics.process",
+    "versionInfo" : "4.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.text.encoding.extensions::4.3.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.text.encoding.extensions@4.3.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License,Microsoft .NET Library RTW",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.text.encoding.extensions",
+    "versionInfo" : "4.3.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:humanizer.core::2.14.1:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/humanizer.core@2.14.1",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "humanizer.core",
+    "versionInfo" : "2.14.1"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.data.sqlclient::4.8.2:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "comment" : "{\"id\":\"CVE-2024-0056\",\"source\":{\"url\":\"https://nvd.nist.gov/vuln/detail/CVE-2024-0056\",\"name\":\"NVD\"},\"ratings\":[{\"score\":8.7,\"severity\":\"high\",\"method\":\"CVSSv3\",\"vector\":\"AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N\"},{\"score\":7.6,\"severity\":\"high\",\"method\":\"srcclrCvss\",\"vector\":\"(AV:N/AC:H/Au:N/C:C/I:C/A:C)\"}],\"created\":1706281356607,\"updated\":1783778546264,\"description\":\"Credential Exposure Microsoft.Data.SqlClient is vulnerable to Credential Exposure. The vulnerability is due to improper handling of TLS connections, allowing an attacker to read or modify traffic between the server and client. The attacker would have to position themself between the client and server, resulting in database credential exposure.\",\"properties\":[{\"name\":\"Veracode Vulnerability Database\",\"value\":\"https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-45176\"}]}",
+      "referenceCategory" : "SECURITY",
+      "referenceLocator" : "https://nvd.nist.gov/vuln/detail/CVE-2024-0056",
+      "referenceType" : "evidence"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.data.sqlclient",
+    "versionInfo" : "4.8.2"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.io.filesystem.watcher::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.io.filesystem.watcher@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.io.filesystem.watcher",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.componentmodel.annotations::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.componentmodel.annotations@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.componentmodel.annotations",
+    "versionInfo" : "4.7.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.console::4.0.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.console@4.0.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "Microsoft .NET Library EULA,Microsoft .NET Library License",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.console",
+    "versionInfo" : "4.0.0"
+  }, {
+    "SPDXID" : "SPDXRef-nuget:system.security.principal.windows::4.7.0:",
+    "annotations" : [ ],
+    "attributionTexts" : [ ],
+    "checksums" : [ ],
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:nuget/system.security.principal.windows@4.7.0",
+      "referenceType" : "purl"
+    } ],
+    "hasFiles" : [ ],
+    "licenseDeclared" : "MIT license (MIT)",
+    "licenseInfoFromFiles" : [ ],
+    "name" : "system.security.principal.windows",
+    "versionInfo" : "4.7.0"
+  } ],
+  "files" : [ ],
+  "snippets" : [ ],
+  "relationships" : [ ]
+}

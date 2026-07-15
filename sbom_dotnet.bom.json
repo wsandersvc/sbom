@@ -1,0 +1,3851 @@
+{
+  "$schema" : "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:e81368a9-f1f0-49ec-bcd0-24a6f74efd3d",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-07-15T09:30:43Z",
+    "tools" : [ {
+      "vendor" : "Veracode Inc",
+      "name" : "sca"
+    } ],
+    "properties" : [ {
+      "name" : "fullReportDetailsUrl",
+      "value" : "https://sca.analysiscenter.veracode.com/teams/700tbmyO/scans/123077391"
+    } ]
+  },
+  "components" : [ {
+    "type" : "library",
+    "bom-ref" : "nuget:system.threading::4.3.0:",
+    "name" : "system.threading",
+    "version" : "4.3.0",
+    "description" : "Provides the fundamental synchronization primitives, including System.Threading.Monitor and System.Threading.Mutex, that are required when writing asynchronous code.\n\nCommonly Used Types:\nSystem.Threa",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.threading@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.io.filesystem::4.3.0:",
+    "name" : "system.io.filesystem",
+    "version" : "4.3.0",
+    "description" : "Provides types that allow reading and writing to files and types that provide basic file and directory support.\n\nCommonly Used Types:\nSystem.IO.FileStream\nSystem.IO.FileInfo\nSystem.IO.DirectoryInfo\nSy",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.io.filesystem@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.threading.tasks::4.3.0:",
+    "name" : "system.threading.tasks",
+    "version" : "4.3.0",
+    "description" : "Provides types that simplify the work of writing concurrent and asynchronous code.\n\nCommonly Used Types:\nSystem.Threading.Tasks.Task<TResult>\nSystem.Runtime.CompilerServices.TaskAwaiter<TResult>\nSyste",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.threading.tasks@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.diagnosticsource::4.0.0:",
+    "name" : "system.diagnostics.diagnosticsource",
+    "version" : "4.0.0",
+    "description" : "Provides Classes that allow you to decouple code logging rich (unserializable) diagnostics/telemetry (e.g. framework) from code that consumes it (e.g. tools)\n\nCommonly Used Types:\nSystem.Diagnostics.D",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.diagnostics.diagnosticsource@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.globalization.calendars::4.0.1:",
+    "name" : "system.globalization.calendars",
+    "version" : "4.0.1",
+    "description" : "Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.\n\nCommonly Used Types:\nSystem.Globalization.HijriCalendar\nSystem",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.globalization.calendars@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.console::4.0.0:",
+    "name" : "system.console",
+    "version" : "4.0.0",
+    "description" : "Provides the System.Console class, which represents the standard input, output and error streams for console applications.\n\nCommonly Used Types:\nSystem.Console\nSystem.ConsoleColor\n \nWhen using NuGet 3",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.console@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.tools::4.3.0:",
+    "name" : "system.diagnostics.tools",
+    "version" : "4.3.0",
+    "description" : "Provides attributes, such as GeneratedCodeAttribute and SuppresMessageAttribute, that are emitted or consumed by analysis tools.\n\nCommonly Used Types:\nSystem.CodeDom.Compiler.GeneratedCodeAttribute\nSy",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.diagnostics.tools@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.logging.log4net.aspnetcore::3.1.0:",
+    "name" : "microsoft.extensions.logging.log4net.aspnetcore",
+    "version" : "3.1.0",
+    "description" : "Allows to configure Log4net as Microsoft Extensions Logging handler on any ASP.NET Core application.\n\n\t\t\tOriginal code proposal by @anuraj --> https://dotnetthoughts.net/how-to-use-log4net-with-aspnet",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.logging.log4net.aspnetcore@3.1.0",
+    "externalReferences" : [ {
+      "url" : "https://github.com/huorswords/Microsoft.Extensions.Logging.Log4Net.AspNetCore",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.io.filesystem.watcher::4.0.0:",
+    "name" : "system.io.filesystem.watcher",
+    "version" : "4.0.0",
+    "description" : "Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.\n\nCommonly Used Types:\nSystem",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.io.filesystem.watcher@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.net.primitives::4.0.11:",
+    "name" : "system.net.primitives",
+    "version" : "4.0.11",
+    "description" : "Provides common types for network-based libraries, including System.Net.IPAddress, System.Net.IPEndPoint, and System.Net.CookieContainer.\n\nCommonly Used Types:\nSystem.Net.HttpStatusCode\nSystem.Net.Soc",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.net.primitives@4.0.11",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.xml.xpath.xdocument::4.3.0:",
+    "name" : "system.xml.xpath.xdocument",
+    "version" : "4.3.0",
+    "description" : "Provides extension methods that add System.Xml.XPath support to the System.Xml.XDocument package.\n\nCommonly Used Types:\nSystem.Xml.XPath.Extensions\nSystem.Xml.XPath.XDocumentExtensions\n \nWhen using Nu",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.xml.xpath.xdocument@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.linq::4.3.0:",
+    "name" : "system.linq",
+    "version" : "4.3.0",
+    "description" : "Provides classes and interfaces that supports queries that use Language-Integrated Query (LINQ).\n\nCommonly Used Types:\nSystem.Linq.Enumerable\nSystem.Linq.IGrouping<TKey, TElement>\nSystem.Linq.IOrdered",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.linq@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.io.filesystem.primitives::4.3.0:",
+    "name" : "system.io.filesystem.primitives",
+    "version" : "4.3.0",
+    "description" : "Provides common enumerations and exceptions for path-based I/O libraries.\n\nCommonly Used Types:\nSystem.IO.DirectoryNotFoundException\nSystem.IO.FileAccess\nSystem.IO.FileLoadException\nSystem.IO.PathTooL",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.io.filesystem.primitives@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.text.regularexpressions::4.3.0:",
+    "name" : "system.text.regularexpressions",
+    "version" : "4.3.0",
+    "description" : "Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.\n\nCommonly Used Types:\nSystem.Text.RegularExpressions.Regex\nSystem.Text.RegularExpressions.Reg",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.text.regularexpressions@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.codeanalysis.csharp.workspaces::4.5.0:",
+    "name" : "microsoft.codeanalysis.csharp.workspaces",
+    "version" : "4.5.0",
+    "description" : ".NET Compiler Platform (\"Roslyn\") support for analyzing C# projects and solutions.\n    \n      More details at https://aka.ms/roslyn-packages\n      This package was built from the source at https://git",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.codeanalysis.csharp.workspaces@4.5.0",
+    "externalReferences" : [ {
+      "url" : "https://github.com/dotnet/roslyn",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.netcore.targets::1.1.0:",
+    "name" : "microsoft.netcore.targets",
+    "version" : "1.1.0",
+    "description" : "Provides supporting infrastructure for portable projects: support identifiers that define framework and runtime for support targets and packages that reference the minimum supported package versions w",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.netcore.targets@1.1.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.fileproviders.abstractions::8.0.0:",
+    "name" : "microsoft.extensions.fileproviders.abstractions",
+    "version" : "8.0.0",
+    "description" : "Abstractions of files and directories.\n\nCommonly Used Types:\nMicrosoft.Extensions.FileProviders.IDirectoryContents\nMicrosoft.Extensions.FileProviders.IFileInfo\nMicrosoft.Extensions.FileProviders.IFile",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.fileproviders.abstractions@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.runtime.handles::4.3.0:",
+    "name" : "system.runtime.handles",
+    "version" : "4.3.0",
+    "description" : "Provides base classes, including System.Runtime.InteropServices.CriticalHandle and System.Runtime.InteropServices.SafeHandle, for types that represent operating system handles.\n\nCommonly Used Types:\nS",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.runtime.handles@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.drawing.common::4.7.0:",
+    "name" : "system.drawing.common",
+    "version" : "4.7.0",
+    "description" : "Provides access to GDI+ graphics functionality.\n\n      Commonly Used Types:\n      System.Drawing.Bitmap\n      System.Drawing.BitmapData\n      System.Drawing.Brush\n      System.Drawing.Font\n      Syste",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.drawing.common@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://github.com/dotnet/winforms",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.csp::4.0.0:",
+    "name" : "system.security.cryptography.csp",
+    "version" : "4.0.0",
+    "description" : "Provides cryptographic algorithm implementations and key management with Windows Cryptographic API (CryptoAPI).\n\nCommonly Used Types:\nSystem.Security.Cryptography.RSACryptoServiceProvider\nSystem.Secur",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.cryptography.csp@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.text.json::8.0.4:",
+    "name" : "system.text.json",
+    "version" : "8.0.4",
+    "description" : "Provides high-performance and low-allocating types that serialize objects to JavaScript Object Notation (JSON) text and deserialize JSON text to objects, with UTF-8 support built-in. Also provides typ",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.text.json@8.0.4",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.runtime.serialization.formatters::4.3.0:",
+    "name" : "system.runtime.serialization.formatters",
+    "version" : "4.3.0",
+    "description" : "System.Runtime.Serialization.Formatters",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.runtime.serialization.formatters@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.identity.core::8.0.7:",
+    "name" : "microsoft.extensions.identity.core",
+    "version" : "8.0.7",
+    "description" : "ASP.NET Core Identity is the membership system for building ASP.NET Core web applications, including membership, login, and user data. ASP.NET Core Identity allows you to add login features to your ap",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.identity.core@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://asp.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.aspnetcore.cryptography.keyderivation::8.0.7:",
+    "name" : "microsoft.aspnetcore.cryptography.keyderivation",
+    "version" : "8.0.7",
+    "description" : "ASP.NET Core utilities for key derivation.\n\nThis package was built from the source code at https://github.com/dotnet/dotnet/tree/f7b4c5716faaee8fb8a289aed29118cad955c45f",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.aspnetcore.cryptography.keyderivation@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://asp.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.entityframeworkcore.tools::8.0.7:",
+    "name" : "microsoft.entityframeworkcore.tools",
+    "version" : "8.0.7",
+    "description" : "Entity Framework Core Tools for the NuGet Package Manager Console in Visual Studio.\n\nEnables these commonly used commands:\nAdd-Migration\nBundle-Migration\nDrop-Database\nGet-DbContext\nGet-Migration\nOpti",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.entityframeworkcore.tools@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://docs.microsoft.com/ef/core/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.runtime.extensions::4.3.0:",
+    "name" : "system.runtime.extensions",
+    "version" : "4.3.0",
+    "description" : "Provides commonly-used classes for performing mathematical functions, conversions, string comparisons and querying environment information.\n\nCommonly Used Types:\nSystem.Math\nSystem.Environment\nSystem.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.runtime.extensions@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.dependencyinjection::8.0.0:",
+    "name" : "microsoft.extensions.dependencyinjection",
+    "version" : "8.0.0",
+    "description" : "Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.dependencyinjection@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.aspnetcore.identity.ui::8.0.7:",
+    "name" : "microsoft.aspnetcore.identity.ui",
+    "version" : "8.0.7",
+    "description" : "ASP.NET Core Identity UI is the default Razor Pages built-in UI for the ASP.NET Core Identity framework.\n\nThis package was built from the source code at https://github.com/dotnet/dotnet/tree/f7b4c5716",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.aspnetcore.identity.ui@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://asp.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.entityframeworkcore.analyzers::8.0.7:",
+    "name" : "microsoft.entityframeworkcore.analyzers",
+    "version" : "8.0.7",
+    "description" : "CSharp Analyzers for Entity Framework Core.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.entityframeworkcore.analyzers@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://docs.microsoft.com/ef/core/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:runtime.win-x86.runtime.native.system.data.sqlclient.sni::4.4.0:",
+    "name" : "runtime.win-x86.runtime.native.system.data.sqlclient.sni",
+    "version" : "4.4.0",
+    "description" : "Internal implementation package not meant for direct consumption.  Please do not reference directly. \nd0d5c7b49271cadb6d97de26d8e623e98abdc8db \nWhen using NuGet 3.x this package requires at least vers",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/runtime.win-x86.runtime.native.system.data.sqlclient.sni@4.4.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.configuration.binder::3.1.2:",
+    "name" : "microsoft.extensions.configuration.binder",
+    "version" : "3.1.2",
+    "description" : "Provides the functionality to bind an object to data in configuration providers for Microsoft.Extensions.Configuration. This package enables you to represent the configuration data as strongly-typed c",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.configuration.binder@3.1.2",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.xml.readerwriter::4.3.0:",
+    "name" : "system.xml.readerwriter",
+    "version" : "4.3.0",
+    "description" : "Provides provides a fast, non-cached, forward-only way to read and write Extensible Markup Language (XML) data.\n\nCommonly Used Types:\nSystem.Xml.XmlNodeType\nSystem.Xml.XmlException\nSystem.Xml.XmlReade",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.xml.readerwriter@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.collections::4.3.0:",
+    "name" : "system.collections",
+    "version" : "4.3.0",
+    "description" : "Provides classes that define generic collections, which allow developers to create strongly typed collections that provide better type safety and performance than non-generic strongly typed collection",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.collections@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.win32.systemevents::4.7.0:",
+    "name" : "microsoft.win32.systemevents",
+    "version" : "4.7.0",
+    "description" : "Provides access to Windows system event notifications.\n\nCommonly Used Types:\nMicrosoft.Win32.SystemEvents",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.win32.systemevents@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.configuration.configurationmanager::4.7.0:",
+    "name" : "system.configuration.configurationmanager",
+    "version" : "4.7.0",
+    "description" : "Provides types that support using XML configuration files (app.config). This package exists only to support migrating existing .NET Framework code that already uses System.Configuration. When writing ",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.configuration.configurationmanager@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.fileproviders.embedded::8.0.7:",
+    "name" : "microsoft.extensions.fileproviders.embedded",
+    "version" : "8.0.7",
+    "description" : "File provider for files in embedded resources for Microsoft.Extensions.FileProviders.\n\nThis package was built from the source code at https://github.com/dotnet/dotnet/tree/f7b4c5716faaee8fb8a289aed291",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.fileproviders.embedded@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://asp.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.reflection.primitives::4.3.0:",
+    "name" : "system.reflection.primitives",
+    "version" : "4.3.0",
+    "description" : "Provides common enumerations for reflection-based libraries.\n\nCommonly Used Types:\nSystem.Reflection.FieldAttributes\nSystem.Reflection.Emit.OpCode\nSystem.Reflection.TypeAttributes\nSystem.Reflection.Me",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.reflection.primitives@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.logging::8.0.0:",
+    "name" : "microsoft.extensions.logging",
+    "version" : "8.0.0",
+    "description" : "Logging infrastructure default implementation for Microsoft.Extensions.Logging.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.logging@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.collections.nongeneric::4.0.1:",
+    "name" : "system.collections.nongeneric",
+    "version" : "4.0.1",
+    "description" : "Provides classes that define older non-generic collections of objects, such as lists, queues, hash tables and dictionaries. Developers should prefer the generic collections in the System.Collections p",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.collections.nongeneric@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.caching.memory::8.0.0:",
+    "name" : "microsoft.extensions.caching.memory",
+    "version" : "8.0.0",
+    "description" : "In-memory cache implementation of Microsoft.Extensions.Caching.Memory.IMemoryCache.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.caching.memory@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.net.requests::4.0.11:",
+    "name" : "system.net.requests",
+    "version" : "4.0.11",
+    "description" : "Provides older classes (such as HttpWebRequest and HttpWebResponse) for sending HTTP requests and receiving HTTP responses from a resource identified by a URI. Developers should prefer the classes in ",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.net.requests@4.0.11",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.tracing::4.1.0:",
+    "name" : "system.diagnostics.tracing",
+    "version" : "4.1.0",
+    "description" : "Provides class that enable you to create high performance tracing events to be captured by event tracing for Windows (ETW).\n\nCommonly Used Types:\nSystem.Diagnostics.Tracing.EventSource\nSystem.Diagnost",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.diagnostics.tracing@4.1.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:runtime.win-arm64.runtime.native.system.data.sqlclient.sni::4.4.0:",
+    "name" : "runtime.win-arm64.runtime.native.system.data.sqlclient.sni",
+    "version" : "4.4.0",
+    "description" : "Internal implementation package not meant for direct consumption.  Please do not reference directly. \nd0d5c7b49271cadb6d97de26d8e623e98abdc8db \nWhen using NuGet 3.x this package requires at least vers",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/runtime.win-arm64.runtime.native.system.data.sqlclient.sni@4.4.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.protecteddata::4.7.0:",
+    "name" : "system.security.cryptography.protecteddata",
+    "version" : "4.7.0",
+    "description" : "Provides access to Windows Data Protection Api.\n\nCommonly Used Types:\nSystem.Security.Cryptography.DataProtectionScope\nSystem.Security.Cryptography.ProtectedData",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.cryptography.protecteddata@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:log4net::2.0.8:",
+    "name" : "log4net",
+    "version" : "2.0.8",
+    "description" : "log4net is a tool to help the programmer output log statements to a variety of output targets.\nIn case of problems with an application, it is helpful to enable logging so that the problem\ncan be locat",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/log4net@2.0.8",
+    "externalReferences" : [ {
+      "url" : "https://logging.apache.org/log4net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:newtonsoft.json::13.0.3:",
+    "name" : "newtonsoft.json",
+    "version" : "13.0.3",
+    "description" : "Json.NET is a popular high-performance JSON framework for .NET",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/newtonsoft.json@13.0.3",
+    "externalReferences" : [ {
+      "url" : "https://www.newtonsoft.com/json",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.globalization::4.3.0:",
+    "name" : "system.globalization",
+    "version" : "4.3.0",
+    "description" : "Provides classes that define culture-related information, including language, country/region, calendars in use, format patterns for dates, currency, and numbers, and sort order for strings.\n\nCommonly ",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.globalization@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.entityframeworkcore.relational::8.0.7:",
+    "name" : "microsoft.entityframeworkcore.relational",
+    "version" : "8.0.7",
+    "description" : "Shared Entity Framework Core components for relational database providers.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.entityframeworkcore.relational@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://docs.microsoft.com/ef/core/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:runtime.native.system.security.cryptography::4.0.0:",
+    "name" : "runtime.native.system.security.cryptography",
+    "version" : "4.0.0",
+    "description" : "Internal implementation package not meant for direct consumption.  Please do not reference directly. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/runtime.native.system.security.cryptography@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.xml.xmldocument::4.0.1:",
+    "name" : "system.xml.xmldocument",
+    "version" : "4.0.1",
+    "description" : "Provides an older in-memory Extensible Markup Language (XML) programming interface that enables you to modify XML documents. Developers should prefer the classes in the System.Xml.XDocument package.\n\n",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.xml.xmldocument@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.openssl::4.0.0:",
+    "name" : "system.security.cryptography.openssl",
+    "version" : "4.0.0",
+    "description" : "Provides cryptographic algorithm implementations and key management for non-Windows systems with OpenSSL.\n\nCommonly Used Types:\nSystem.Security.Cryptography.RSAOpenSsl",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.cryptography.openssl@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.collections.concurrent::4.0.12:",
+    "name" : "system.collections.concurrent",
+    "version" : "4.0.12",
+    "description" : "Provides several thread-safe collection classes that should be used in place of the corresponding types in the System.Collections.NonGeneric and System.Collections packages whenever multiple threads a",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.collections.concurrent@4.0.12",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.logging.abstractions::8.0.0:",
+    "name" : "microsoft.extensions.logging.abstractions",
+    "version" : "8.0.0",
+    "description" : "Logging abstractions for Microsoft.Extensions.Logging.\n\nCommonly Used Types:\nMicrosoft.Extensions.Logging.ILogger\nMicrosoft.Extensions.Logging.ILoggerFactory\nMicrosoft.Extensions.Logging.ILogger<TCate",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.logging.abstractions@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.dependencyinjection.abstractions::8.0.0:",
+    "name" : "microsoft.extensions.dependencyinjection.abstractions",
+    "version" : "8.0.0",
+    "description" : "Abstractions for dependency injection.\n\nCommonly Used Types:\nMicrosoft.Extensions.DependencyInjection.IServiceCollection",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.dependencyinjection.abstractions@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.runtime::4.3.0:",
+    "name" : "system.runtime",
+    "version" : "4.3.0",
+    "description" : "Provides the fundamental primitives, classes and base classes that define commonly-used value and reference data types, events and event handlers, interfaces, attributes, and exceptions. This packages",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.runtime@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.primitives::8.0.0:",
+    "name" : "microsoft.extensions.primitives",
+    "version" : "8.0.0",
+    "description" : "Primitives shared by framework extensions. Commonly used types include:\n\nCommonly Used Types:\nMicrosoft.Extensions.Primitives.IChangeToken\nMicrosoft.Extensions.Primitives.StringValues\nMicrosoft.Extens",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.primitives@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.principal.windows::4.7.0:",
+    "name" : "system.security.principal.windows",
+    "version" : "4.7.0",
+    "description" : "Provides classes for retrieving the current Windows user and for interacting with Windows users and groups.\n\nCommonly Used Types:\nSystem.Security.Principal.WindowsIdentity\nSystem.Security.Principal.Se",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.principal.windows@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.identity.stores::8.0.7:",
+    "name" : "microsoft.extensions.identity.stores",
+    "version" : "8.0.7",
+    "description" : "ASP.NET Core Identity is the membership system for building ASP.NET Core web applications, including membership, login, and user data. ASP.NET Core Identity allows you to add login features to your ap",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.identity.stores@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://asp.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.componentmodel.annotations::4.7.0:",
+    "name" : "system.componentmodel.annotations",
+    "version" : "4.7.0",
+    "description" : "Provides attributes that are used to define metadata for objects used as data sources.\n\nCommonly Used Types:\nSystem.ComponentModel.DataAnnotations.ValidationResult\nSystem.ComponentModel.DataAnnotation",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.componentmodel.annotations@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.entityframeworkcore.design::8.0.7:",
+    "name" : "microsoft.entityframeworkcore.design",
+    "version" : "8.0.7",
+    "description" : "Shared design-time components for Entity Framework Core tools.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.entityframeworkcore.design@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://docs.microsoft.com/ef/core/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.windows.extensions::4.7.0:",
+    "name" : "system.windows.extensions",
+    "version" : "4.7.0",
+    "description" : "Provides miscellaneous Windows-specific types\n\nCommonly Used Types:\nSystem.Security.Cryptography.X509Certificates.X509Certificate2UI\nSystem.Security.Cryptography.X509Certificates.X509SelectionFlag",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.windows.extensions@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.text.encoding.extensions::4.3.0:",
+    "name" : "system.text.encoding.extensions",
+    "version" : "4.3.0",
+    "description" : "Provides support for specific encodings, including ASCII, UTF-7, UTF-8, UTF-16, and UTF-32.\n\nCommonly Used Types:\nSystem.Text.UTF8Encoding\nSystem.Text.UnicodeEncoding\nSystem.Text.ASCIIEncoding\nSystem.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.text.encoding.extensions@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.x509certificates::4.1.0:",
+    "name" : "system.security.cryptography.x509certificates",
+    "version" : "4.1.0",
+    "description" : "Provides types for reading, exporting and verifying Authenticode X.509 v3 certificates. These certificates are signed with a private key that uniquely and positively identifies the holder of the certi",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.cryptography.x509certificates@4.1.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.runtime.numerics::4.0.1:",
+    "name" : "system.runtime.numerics",
+    "version" : "4.0.1",
+    "description" : "Provides the numeric types System.Numerics.BigInteger and System.Numerics.Complex, which complement the numeric primitives, such as System.Byte, System.Double and System.Int32.\n\nCommonly Used Types:\nS",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.runtime.numerics@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.cng::4.2.0:",
+    "name" : "system.security.cryptography.cng",
+    "version" : "4.2.0",
+    "description" : "Provides cryptographic algorithm implementations and key management with Windows Cryptographic Next Generation API (CNG).\n\nCommonly Used Types:\nSystem.Security.Cryptography.RSACng\nSystem.Security.Cryp",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.cryptography.cng@4.2.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.runtime.interopservices.runtimeinformation::4.0.0:",
+    "name" : "system.runtime.interopservices.runtimeinformation",
+    "version" : "4.0.0",
+    "description" : "Provides APIs to query about runtime and OS information.\n\nCommonly Used Types:\nSystem.Runtime.InteropServices.RuntimeInformation\nSystem.Runtime.InteropServices.OSPlatform\n \nWhen using NuGet 3.x this p",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.runtime.interopservices.runtimeinformation@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.entityframeworkcore.abstractions::8.0.7:",
+    "name" : "microsoft.entityframeworkcore.abstractions",
+    "version" : "8.0.7",
+    "description" : "Provides abstractions and attributes that are used to configure Entity Framework Core",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.entityframeworkcore.abstractions@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://docs.microsoft.com/ef/core/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.aspnetcore.identity.entityframeworkcore::8.0.7:",
+    "name" : "microsoft.aspnetcore.identity.entityframeworkcore",
+    "version" : "8.0.7",
+    "description" : "ASP.NET Core Identity provider that uses Entity Framework Core.\n\nThis package was built from the source code at https://github.com/dotnet/dotnet/tree/f7b4c5716faaee8fb8a289aed29118cad955c45f",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.aspnetcore.identity.entityframeworkcore@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://asp.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.encoding::4.0.0:",
+    "name" : "system.security.cryptography.encoding",
+    "version" : "4.0.0",
+    "description" : "Provides types for representing Abstract Syntax Notation One (ASN.1)-encoded data.\n\nCommonly Used Types:\nSystem.Security.Cryptography.AsnEncodedData\nSystem.Security.Cryptography.Oid\nSystem.Security.Cr",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.cryptography.encoding@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.dependencymodel::8.0.1:",
+    "name" : "microsoft.extensions.dependencymodel",
+    "version" : "8.0.1",
+    "description" : "Provides abstractions for reading `.deps` files. When a .NET application is compiled, the SDK generates a JSON manifest file (`<ApplicationName>.deps.json`) that contains information about application",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.dependencymodel@8.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.runtime.interopservices::4.3.0:",
+    "name" : "system.runtime.interopservices",
+    "version" : "4.3.0",
+    "description" : "Provides types that support COM interop and platform invoke services.\n\nCommonly Used Types:\nSystem.Runtime.InteropServices.GCHandle\nSystem.Runtime.InteropServices.GuidAttribute\nSystem.Runtime.InteropS",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.runtime.interopservices@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.configuration.abstractions::8.0.0:",
+    "name" : "microsoft.extensions.configuration.abstractions",
+    "version" : "8.0.0",
+    "description" : "Provides abstractions of key-value pair based configuration. Interfaces defined in this package are implemented by classes in Microsoft.Extensions.Configuration and other configuration packages.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.configuration.abstractions@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.resources.resourcemanager::4.3.0:",
+    "name" : "system.resources.resourcemanager",
+    "version" : "4.3.0",
+    "description" : "Provides classes and attributes that allow developers to create, store, and manage various culture-specific resources used in an application.\n\nCommonly Used Types:\nSystem.Resources.ResourceManager\nSys",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.resources.resourcemanager@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:runtime.win-x64.runtime.native.system.data.sqlclient.sni::4.4.0:",
+    "name" : "runtime.win-x64.runtime.native.system.data.sqlclient.sni",
+    "version" : "4.4.0",
+    "description" : "Internal implementation package not meant for direct consumption.  Please do not reference directly. \nd0d5c7b49271cadb6d97de26d8e623e98abdc8db \nWhen using NuGet 3.x this package requires at least vers",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/runtime.win-x64.runtime.native.system.data.sqlclient.sni@4.4.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.net.http::4.1.0:",
+    "name" : "system.net.http",
+    "version" : "4.1.0",
+    "description" : "Provides a programming interface for modern HTTP applications, including HTTP client components that allow applications to consume web services over HTTP and HTTP components that can be used by both c",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.net.http@4.1.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.text.encodings.web::8.0.0:",
+    "name" : "system.text.encodings.web",
+    "version" : "8.0.0",
+    "description" : "Provides types for encoding and escaping strings for use in JavaScript, HyperText Markup Language (HTML), and uniform resource locators (URL).\n\nCommonly Used Types:\nSystem.Text.Encodings.Web.HtmlEncod",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.text.encodings.web@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.csharp::4.7.0:",
+    "name" : "microsoft.csharp",
+    "version" : "4.7.0",
+    "description" : "Provides support for compilation and code generation, including dynamic, using the C# language.\n\nCommonly Used Types:\nMicrosoft.CSharp.RuntimeBinder.Binder\nMicrosoft.CSharp.RuntimeBinder.RuntimeBinder",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.csharp@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://github.com/dotnet/corefx",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.threading.threadpool::4.0.10:",
+    "name" : "system.threading.threadpool",
+    "version" : "4.0.10",
+    "description" : "Provides the System.Threading.ThreadPool class, which contains a pool of threads that can be used to execute tasks, post work items, wait on behalf of other threads, and process timers.\n\nCommonly Used",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.threading.threadpool@4.0.10",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.win32.primitives::4.0.1:",
+    "name" : "microsoft.win32.primitives",
+    "version" : "4.0.1",
+    "description" : "Provides common types for Win32-based libraries.\n\nCommonly Used Types:\nSystem.ComponentModel.Win32Exception\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.win32.primitives@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.options::8.0.2:",
+    "name" : "microsoft.extensions.options",
+    "version" : "8.0.2",
+    "description" : "Provides a strongly typed way of specifying and accessing settings using dependency injection.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.options@8.0.2",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.win32.registry::4.7.0:",
+    "name" : "microsoft.win32.registry",
+    "version" : "4.7.0",
+    "description" : "Provides support for accessing and modifying the Windows Registry.\n\nCommonly Used Types:\nMicrosoft.Win32.RegistryKey\nMicrosoft.Win32.Registry\nMicrosoft.Win32.RegistryValueKind\nMicrosoft.Win32.Registry",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.win32.registry@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.xml.xpath::4.3.0:",
+    "name" : "system.xml.xpath",
+    "version" : "4.3.0",
+    "description" : "Provides the classes that define a cursor model for navigating and editing Extensible Markup Language (XML) information items as instances of the XQuery 1.0 and XPath 2.0 Data Model.\n\nCommonly Used Ty",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.xml.xpath@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.stacktrace::4.0.1:",
+    "name" : "system.diagnostics.stacktrace",
+    "version" : "4.0.1",
+    "description" : "Provides the System.Diagnostics.StackTrace class, which allows interaction with local and remote processes.\n\nCommonly Used Types:\nSystem.Diagnostics.StackFrame\nSystem.Diagnostics.StackTrace\n \nWhen usi",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.diagnostics.stacktrace@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:runtime.native.system.net.http::4.0.1:",
+    "name" : "runtime.native.system.net.http",
+    "version" : "4.0.1",
+    "description" : "Internal implementation package not meant for direct consumption.  Please do not reference directly. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/runtime.native.system.net.http@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.appcontext::4.1.0:",
+    "name" : "system.appcontext",
+    "version" : "4.1.0",
+    "description" : "Provides the System.AppContext class, which allows access to the BaseDirectory property and other application specific data.\n\nCommonly Used Types:\nSystem.AppContext\n \nWhen using NuGet 3.x this package",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.appcontext@4.1.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:entityframework::6.4.4:",
+    "name" : "entityframework",
+    "version" : "6.4.4",
+    "description" : "Entity Framework is Microsoft's recommended data access technology for new applications.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/entityframework@6.4.4",
+    "externalReferences" : [ {
+      "url" : "http://www.asp.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.threading.timer::4.0.1:",
+    "name" : "system.threading.timer",
+    "version" : "4.0.1",
+    "description" : "Provides the System.Threading.Timer class, which is a mechanism for executing a method at specified intervals.\n\nCommonly Used Types:\nSystem.Threading.Timer\nSystem.Threading.TimerCallback\n \nWhen using ",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.threading.timer@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.debug::4.3.0:",
+    "name" : "system.diagnostics.debug",
+    "version" : "4.3.0",
+    "description" : "Provides classes and attributes that allows basic interaction with a debugger.\n\nCommonly Used Types:\nSystem.Diagnostics.Debug\nSystem.Diagnostics.DebuggerStepThroughAttribute\nSystem.Diagnostics.Debugge",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.diagnostics.debug@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.data.sqlclient::4.8.2:",
+    "name" : "system.data.sqlclient",
+    "version" : "4.8.2",
+    "description" : "DEPRECATED - Use Microsoft.Data.SqlClient.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.data.sqlclient@4.8.2",
+    "externalReferences" : [ {
+      "url" : "https://github.com/dotnet/maintenance-packages",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.threading.overlapped::4.0.1:",
+    "name" : "system.threading.overlapped",
+    "version" : "4.0.1",
+    "description" : "Provides common types for interacting with asynchronous (or overlapped) input and output (I/O).\n\nCommonly Used Types:\nSystem.Threading.NativeOverlapped\nSystem.Threading.Overlapped\nSystem.Threading.IOC",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.threading.overlapped@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.io::4.3.0:",
+    "name" : "system.io",
+    "version" : "4.3.0",
+    "description" : "Provides base input and output (I/O) types, including System.IO.Stream, System.IO.StreamReader and System.IO.StreamWriter, that allow reading and writing to data streams\n\nCommonly Used Types:\nSystem.I",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.io@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.primitives::4.0.0:",
+    "name" : "system.security.cryptography.primitives",
+    "version" : "4.0.0",
+    "description" : "Provides common types for the cryptographic libraries.\n\nCommonly Used Types:\nSystem.Security.Cryptography.ICryptoTransform\nSystem.Security.Cryptography.AsymmetricAlgorithm\nSystem.Security.Cryptography",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.cryptography.primitives@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.cryptography.algorithms::4.2.0:",
+    "name" : "system.security.cryptography.algorithms",
+    "version" : "4.2.0",
+    "description" : "Provides base types for cryptographic algorithms, including hashing, encryption, and signing operations.\n\nCommonly Used Types:\nSystem.Security.Cryptography.Aes\nSystem.Security.Cryptography.RSA\nSystem.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.cryptography.algorithms@4.2.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.accesscontrol::4.7.0:",
+    "name" : "system.security.accesscontrol",
+    "version" : "4.7.0",
+    "description" : "Provides base classes that enable managing access and audit control lists on securable objects.\n\nCommonly Used Types:\nSystem.Security.AccessControl.AccessRule\nSystem.Security.AccessControl.AuditRule\nS",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.accesscontrol@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.process::4.1.0:",
+    "name" : "system.diagnostics.process",
+    "version" : "4.1.0",
+    "description" : "Provides the System.Diagnostics.Process class, which allows interaction with local and remote processes.\n\nCommonly Used Types:\nSystem.Diagnostics.Process\nSystem.Diagnostics.ProcessModule\nSystem.Diagno",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.diagnostics.process@4.1.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.security.permissions::4.7.0:",
+    "name" : "system.security.permissions",
+    "version" : "4.7.0",
+    "description" : "Provides types supporting Code Access Security (CAS).",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.security.permissions@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.entityframeworkcore::8.0.7:",
+    "name" : "microsoft.entityframeworkcore",
+    "version" : "8.0.7",
+    "description" : "Entity Framework Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations. EF Core works with SQL Server, Azure SQL Database, SQLite,",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.entityframeworkcore@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://docs.microsoft.com/ef/core/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.runtime.serialization.primitives::4.3.0:",
+    "name" : "system.runtime.serialization.primitives",
+    "version" : "4.3.0",
+    "description" : "Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.\n\nCommonly Used Types:\nSystem.Runtime.Serialization.Streamin",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.runtime.serialization.primitives@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.reflection.extensions::4.0.1:",
+    "name" : "system.reflection.extensions",
+    "version" : "4.0.1",
+    "description" : "Provides custom attribute extension methods for System.Reflection types.\n\nCommonly Used Types:\nSystem.Reflection.InterfaceMapping\nSystem.Reflection.CustomAttributeExtensions\nSystem.Reflection.RuntimeR",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.reflection.extensions@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.xml.xdocument::4.3.0:",
+    "name" : "system.xml.xdocument",
+    "version" : "4.3.0",
+    "description" : "Provides the classes for Language-Integrated Query (LINQ) to Extensible Markup Language (XML). LINQ to XML is an in-memory XML programming interface that enables you to modify XML documents efficientl",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.xml.xdocument@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.net.webheadercollection::4.0.1:",
+    "name" : "system.net.webheadercollection",
+    "version" : "4.0.1",
+    "description" : "Contains types that represent HTTP request and response headers. This library is used with classes such as System.Net.HttpWebRequest and System.Net.HttpWebResponse and allows developers to query/edit ",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.net.webheadercollection@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.aspnetcore.cryptography.internal::8.0.7:",
+    "name" : "microsoft.aspnetcore.cryptography.internal",
+    "version" : "8.0.7",
+    "description" : "Infrastructure for ASP.NET Core cryptographic packages. Applications and libraries should not reference this package directly.\n\nThis package was built from the source code at https://github.com/dotnet",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.aspnetcore.cryptography.internal@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://asp.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.configuration::3.1.2:",
+    "name" : "microsoft.extensions.configuration",
+    "version" : "3.1.2",
+    "description" : "Implementation of key-value pair based configuration for Microsoft.Extensions.Configuration. Includes the memory configuration provider.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.configuration@3.1.2",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.text.encoding::4.3.0:",
+    "name" : "system.text.encoding",
+    "version" : "4.3.0",
+    "description" : "Provides base abstract encoding classes for converting blocks of characters to and from blocks of bytes.\n\nCommonly Used Types:\nSystem.Text.Encoding\nSystem.Text.DecoderFallbackException\nSystem.Text.Dec",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.text.encoding@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.diagnostics.tracesource::4.0.0:",
+    "name" : "system.diagnostics.tracesource",
+    "version" : "4.0.0",
+    "description" : "Provides classes that help you trace the execution of your code. Developers should prefer the classes in the ETW-based System.Diagnostics.Tracing package.\n\nCommonly Used Types:\nSystem.Diagnostics.Trac",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.diagnostics.tracesource@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.net.sockets::4.1.0:",
+    "name" : "system.net.sockets",
+    "version" : "4.1.0",
+    "description" : "Provides classes such as Socket, TcpClient and UdpClient, which enable developers to send and receive data over the network.\n\nCommonly Used Types:\nSystem.Net.Sockets.Socket\nSystem.Net.Sockets.SocketAs",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.net.sockets@4.1.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.globalization.extensions::4.0.1:",
+    "name" : "system.globalization.extensions",
+    "version" : "4.0.1",
+    "description" : "Provides classes for performing Unicode string normalization, culture-specific string comparisons and support the use of non-ASCII characters for Internet domain names.\n\nCommonly Used Types:\nSystem.St",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.globalization.extensions@4.0.1",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.aspnetcore.diagnostics.entityframeworkcore::8.0.7:",
+    "name" : "microsoft.aspnetcore.diagnostics.entityframeworkcore",
+    "version" : "8.0.7",
+    "description" : "ASP.NET Core middleware for Entity Framework Core error pages. Use this middleware to detect and diagnose errors with Entity Framework Core migrations.\n\nThis package was built from the source code at ",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.aspnetcore.diagnostics.entityframeworkcore@8.0.7",
+    "externalReferences" : [ {
+      "url" : "https://asp.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.codedom::4.7.0:",
+    "name" : "system.codedom",
+    "version" : "4.7.0",
+    "description" : "Provides types that can be used to model the structure of a source code document and to output source code for that model in C# or Visual Basic.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.codedom@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.threading.tasks.extensions::4.3.0:",
+    "name" : "system.threading.tasks.extensions",
+    "version" : "4.3.0",
+    "description" : "System.Threading.Tasks.Extensions",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.threading.tasks.extensions@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://github.com/dotnet/maintenance-packages",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.extensions.caching.abstractions::8.0.0:",
+    "name" : "microsoft.extensions.caching.abstractions",
+    "version" : "8.0.0",
+    "description" : "Caching abstractions for in-memory cache and distributed cache.\n\nCommonly Used Types:\nMicrosoft.Extensions.Caching.Distributed.IDistributedCache\nMicrosoft.Extensions.Caching.Memory.IMemoryCache",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.extensions.caching.abstractions@8.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:mono.texttemplating::2.2.1:",
+    "name" : "mono.texttemplating",
+    "version" : "2.2.1",
+    "description" : "Embeddable engine for the T4 templating language, a general-purpose way to generate text or code files using C#",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/mono.texttemplating@2.2.1",
+    "externalReferences" : [ {
+      "url" : "https://github.com/mono/t4",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.threading.thread::4.0.0:",
+    "name" : "system.threading.thread",
+    "version" : "4.0.0",
+    "description" : "Provides the System.Threading.Thread class, which allows developers to create and control a thread, set its priority, and get its state.\n\nCommonly Used Types:\nSystem.Threading.Thread\nSystem.Threading.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.threading.thread@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:runtime.native.system::4.0.0:",
+    "name" : "runtime.native.system",
+    "version" : "4.0.0",
+    "description" : "Internal implementation package not meant for direct consumption.  Please do not reference directly. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/runtime.native.system@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.reflection.typeextensions::4.1.0:",
+    "name" : "system.reflection.typeextensions",
+    "version" : "4.1.0",
+    "description" : "Provides extensions methods for System.Type that are designed to be source-compatible with older framework reflection-based APIs.\n\nCommonly Used Types:\nSystem.Reflection.TypeExtensions\nSystem.Reflecti",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.reflection.typeextensions@4.1.0",
+    "externalReferences" : [ {
+      "url" : "https://github.com/dotnet/corefx",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:humanizer.core::2.14.1:",
+    "name" : "humanizer.core",
+    "version" : "2.14.1",
+    "description" : "Humanizer core package that contains the library and the neutral language (English) resources",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/humanizer.core@2.14.1",
+    "externalReferences" : [ {
+      "url" : "https://github.com/Humanizr/Humanizer",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:runtime.native.system.data.sqlclient.sni::4.7.0:",
+    "name" : "runtime.native.system.data.sqlclient.sni",
+    "version" : "4.7.0",
+    "description" : "Internal implementation package not meant for direct consumption.  Please do not reference directly. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/runtime.native.system.data.sqlclient.sni@4.7.0",
+    "externalReferences" : [ {
+      "url" : "https://github.com/dotnet/corefx",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.net.nameresolution::4.0.0:",
+    "name" : "system.net.nameresolution",
+    "version" : "4.0.0",
+    "description" : "Provides the System.Net.Dns class, which enables developers to perform simple domain name resolution.\n\nCommonly Used Types:\nSystem.Net.Dns\nSystem.Net.IPHostEntry\n \nWhen using NuGet 3.x this package re",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.net.nameresolution@4.0.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:system.reflection::4.3.0:",
+    "name" : "system.reflection",
+    "version" : "4.3.0",
+    "description" : "Provides types that retrieve information about assemblies, modules, members, parameters, and other entities in managed code by examining their metadata. These types also can be used to manipulate inst",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "name" : "MSEULA",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSL",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "name" : "MSRTW",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/system.reflection@4.3.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nuget:microsoft.netcore.platforms::3.1.0:",
+    "name" : "microsoft.netcore.platforms",
+    "version" : "3.1.0",
+    "description" : "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:nuget/microsoft.netcore.platforms@3.1.0",
+    "externalReferences" : [ {
+      "url" : "https://dot.net/",
+      "type" : "vcs"
+    } ]
+  } ],
+  "services" : [ ],
+  "externalReferences" : [ ],
+  "dependencies" : [ ],
+  "compositions" : [ ],
+  "vulnerabilities" : [ {
+    "bom-ref" : "nuget:microsoft.extensions.caching.memory::8.0.0::CVE-2024-43483",
+    "id" : "CVE-2024-43483",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-49178",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-43483",
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43483",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-43483",
+      "source" : {
+        "url" : "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43483",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-43483",
+      "source" : {
+        "url" : "https://github.com/dotnet/runtime/security/advisories/GHSA-qj66-m88j-hmgj",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-43483",
+      "source" : {
+        "url" : "https://github.com/dotnet/runtime",
+        "name" : "CROSS_REFERENCE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43483",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-49178",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.099999904632568,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    } ],
+    "cwes" : [ ],
+    "description" : "System.Security.Cryptography.Cose, System.IO.Packaging, and Microsoft.Extensions.Caching.Memory are vulnerable to Denial Of Service (DoS). The vulnerability is due to insufficient input validation and inadequate mechanisms to handle large datasets that allows to consume excessive resources.",
+    "recommendation" : "8.0.1",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43483"
+    } ],
+    "created" : "2024-10-17T08:49:13.820Z",
+    "published" : "2024-10-08T18:15:10.367Z",
+    "affects" : [ {
+      "ref" : "nuget:microsoft.extensions.caching.memory::8.0.0:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=8.0.0-preview.1.23110.8|<=8.0.0",
+        "status" : "affected"
+      }, {
+        "version" : "8.0.1",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-49178"
+    } ]
+  }, {
+    "bom-ref" : "nuget:system.text.regularexpressions::4.3.0::CVE-2019-0820",
+    "id" : "CVE-2019-0820",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-20063",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2019-0820",
+      "source" : {
+        "url" : "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0820",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2019-0820",
+      "source" : {
+        "url" : "https://access.redhat.com/errata/RHSA-2019:1259",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2019-0820",
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2019-0820",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2019-0820",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2019-0820",
+        "name" : "NVD"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    } ],
+    "cwes" : [ 400 ],
+    "description" : ".NET Core is vulnerable to denial of service (DoS). It is due to lack of timeouts enforcement for regular expressions.",
+    "recommendation" : "4.3.1",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2019-0820"
+    } ],
+    "created" : "2019-05-16T03:48:47.671Z",
+    "published" : "2019-05-16T19:29:00.880Z",
+    "affects" : [ {
+      "ref" : "nuget:system.text.regularexpressions::4.3.0:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=4.3.0|<=4.3.0",
+        "status" : "affected"
+      }, {
+        "version" : "4.3.1",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-20063"
+    } ]
+  }, {
+    "bom-ref" : "nuget:log4net::2.0.8::CVE-2026-40021",
+    "id" : "CVE-2026-40021",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-166525",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2026-40021",
+        "name" : "NVD"
+      },
+      "score" : 5.300000190734863,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    } ],
+    "cwes" : [ 116 ],
+    "description" : "Apache Log4net's  XmlLayout https://logging.apache.org/log4net/manual/configuration/layouts.html#layout-list  and  XmlLayoutSchemaLog4J https://logging.apache.org/log4net/manual/configuration/layouts.html#layout-list , in versions before 3.3.0, fail to sanitize characters forbidden by the  XML 1.0 specification https://www.w3.org/TR/xml/#charsets  in MDC property keys and values, as well as the identity field that may carry attacker-influenced data. This causes an exception during serialization and the silent loss of the affected log event.\nAn attacker who can influence any of these fields can exploit this to suppress individual log records, impairing audit trails and detection of malicious activity.\nUsers are advised to upgrade to Apache Log4net 3.3.0, which fixes this issue.",
+    "recommendation" : "3.3.0",
+    "advisories" : [ {
+      "title" : "Apache Log4net: Silent Log Event Loss In XmlLayout And XmlLayoutSchemaLog4J Due To Unescaped XML 1.0 Forbidden Character",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2026-40021"
+    } ],
+    "created" : "2026-04-18T05:09:36.015Z",
+    "published" : "2026-04-10T18:31:18.000Z",
+    "affects" : [ {
+      "ref" : "nuget:log4net::2.0.8:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=1.2.10|<=3.2.0",
+        "status" : "affected"
+      }, {
+        "version" : "3.3.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-166525"
+    } ]
+  }, {
+    "bom-ref" : "nuget:system.drawing.common::4.7.0::CVE-2021-24112",
+    "id" : "CVE-2021-24112",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-40696",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2021-24112",
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-24112",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2021-24112",
+      "source" : {
+        "url" : "https://github.com/dotnet/announcements/issues/176",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2021-24112",
+      "source" : {
+        "url" : "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24112",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-24112",
+        "name" : "NVD"
+      },
+      "score" : 9.800000190734863,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-24112",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    } ],
+    "cwes" : [ ],
+    "description" : "System.Drawing.Common is vulnerable to Remote Code Execution (RCE). The vulnerability exists because the library does not add the reference count to the graphics metafiles, which allows an attacker to inject and execute malicious code by providing maliciously crafted graphic files. This vulnerability only exists on systems running on MacOS or Linux.",
+    "recommendation" : "4.7.2",
+    "advisories" : [ {
+      "title" : "Remote Code Execution (RCE)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-24112"
+    } ],
+    "created" : "2023-05-26T05:48:32.246Z",
+    "published" : "2021-02-25T23:15:16.570Z",
+    "affects" : [ {
+      "ref" : "nuget:system.drawing.common::4.7.0:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=4.0.0|<=4.7.1",
+        "status" : "affected"
+      }, {
+        "version" : "4.7.2",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-40696"
+    } ]
+  }, {
+    "bom-ref" : "nuget:system.net.http::4.1.0::CVE-2018-8292",
+    "id" : "CVE-2018-8292",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-7599",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "https://github.com/dotnet/corefx/issues/26426",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "https://github.com/dotnet/corefx/commit/7e6396b2bcb4d372b199cfb7b3b13e290c441124",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "https://github.com/dotnet/corefx/issues/32730",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "http://www.securityfocus.com/bid/105548",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8292",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "https://access.redhat.com/errata/RHSA-2018:2902",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-8292",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-8292",
+        "name" : "NVD"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+    } ],
+    "cwes" : [ 200 ],
+    "description" : "System.Net.Http is vulnerable to an information disclosure. The library does not clear it's authentication headers during redirection, allowing a malicious user to use a redirect to gain access to information in the authentication header.",
+    "recommendation" : "4.1.4",
+    "advisories" : [ {
+      "title" : "Information Disclosure",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-8292"
+    } ],
+    "created" : "2018-10-11T08:16:36.598Z",
+    "published" : "2018-10-10T13:29:01.213Z",
+    "affects" : [ {
+      "ref" : "nuget:system.net.http::4.1.0:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=4.0.0-beta-22416|<=4.1.3",
+        "status" : "affected"
+      }, {
+        "version" : "4.1.4",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-7599"
+    } ]
+  }, {
+    "bom-ref" : "nuget:system.text.json::8.0.4::CVE-2024-43485",
+    "id" : "CVE-2024-43485",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-49176",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-43485",
+      "source" : {
+        "url" : "https://github.com/dotnet/announcements/issues/329",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2024-43485",
+      "source" : {
+        "url" : "https://github.com/dotnet/runtime/security/advisories/GHSA-8g4q-xg66-9fp4",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-43485",
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43485",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-43485",
+      "source" : {
+        "url" : "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43485",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-43485",
+      "source" : {
+        "url" : "https://github.com/dotnet/runtime/issues/108678",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2024-43485",
+      "source" : {
+        "url" : "https://github.com/dotnet/runtime",
+        "name" : "CROSS_REFERENCE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43485",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-49176",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.099999904632568,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    } ],
+    "cwes" : [ ],
+    "description" : "System.Text.Json is vulnerable to Denial Of Service (DoS). The vulnerability is due to deserializing input to a model with an ExtensionData property, which allows an attacker to consume excessive resources.\n\n\n\n\n\n\n",
+    "recommendation" : "8.0.5",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43485"
+    } ],
+    "created" : "2024-10-17T06:10:10.152Z",
+    "published" : "2024-10-08T18:15:10.840Z",
+    "affects" : [ {
+      "ref" : "nuget:system.text.json::8.0.4:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=8.0.0-preview.1.23110.8|<=8.0.4",
+        "status" : "affected"
+      }, {
+        "version" : "8.0.5",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-49176"
+    } ]
+  }, {
+    "bom-ref" : "nuget:system.data.sqlclient::4.8.2::CVE-2022-41064",
+    "id" : "CVE-2022-41064",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-37976",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2022-41064",
+      "source" : {
+        "url" : "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41064",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2022-41064",
+      "source" : {
+        "url" : "https://github.com/dotnet/runtime/issues/78042",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2022-41064",
+      "source" : {
+        "url" : "https://www.nuget.org/packages/Microsoft.Data.SqlClient",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2022-41064",
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-41064",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2022-41064",
+      "source" : {
+        "url" : "https://github.com/dotnet/corefx/security/advisories/GHSA-8g2p-5pqh-5jmc",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2022-41064",
+      "source" : {
+        "url" : "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41064",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2022-41064",
+      "source" : {
+        "url" : "https://github.com/dotnet/corefx",
+        "name" : "CROSS_REFERENCE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-41064",
+        "name" : "NVD"
+      },
+      "score" : 5.800000190734863,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "AV:A/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-37976",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 4.300000190734863,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:A/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N"
+    } ],
+    "cwes" : [ ],
+    "description" : "System.Data.SqlClient and Microsoft.Data.SqlClient packages in the .NET framework are vulnerable to information disclosure. The vulnerability occurs during heavy load, which lets an attacker access arbitrary data from asynchronously executed queries.",
+    "recommendation" : "4.8.5",
+    "advisories" : [ {
+      "title" : "Information Disclosure",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-41064"
+    } ],
+    "created" : "2022-11-10T13:49:48.319Z",
+    "published" : "2022-11-09T22:15:20.917Z",
+    "affects" : [ {
+      "ref" : "nuget:system.data.sqlclient::4.8.2:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=1.0.0-beta1|<=4.8.4",
+        "status" : "affected"
+      }, {
+        "version" : "4.8.5",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-37976"
+    } ]
+  }, {
+    "bom-ref" : "nuget:system.security.cryptography.x509certificates::4.1.0::CVE-2017-11770",
+    "id" : "CVE-2017-11770",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-12606",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2017-11770",
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2017-11770",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2017-11770",
+      "source" : {
+        "url" : "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11770",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2017-11770",
+      "source" : {
+        "url" : "https://access.redhat.com/errata/RHSA-2017:3248",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2017-11770",
+      "source" : {
+        "url" : "http://www.securitytracker.com/id/1039787",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2017-11770",
+      "source" : {
+        "url" : "http://www.securityfocus.com/bid/101710",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2017-11770",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2017-11770",
+        "name" : "NVD"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    } ],
+    "cwes" : [ 295 ],
+    "description" : ".NET Core is vulnerable to denial of service (DoS). The vulnerability is possible because an unauthenticated user can parse malicious certificate data to trigger the attack.",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2017-11770"
+    } ],
+    "created" : "2019-01-15T09:19:26.306Z",
+    "published" : "2017-11-15T03:29:00.247Z",
+    "affects" : [ {
+      "ref" : "nuget:system.security.cryptography.x509certificates::4.1.0:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=4.1.0|<=4.1.0",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-12606"
+    } ]
+  }, {
+    "bom-ref" : "nuget:system.net.http::4.1.0::CVE-2018-8292",
+    "id" : "CVE-2018-8292",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-13041",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8292",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "https://access.redhat.com/errata/RHSA-2018:2902",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-8292",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "https://github.com/dotnet/announcements/issues/88",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2018-8292",
+      "source" : {
+        "url" : "http://www.securityfocus.com/bid/105548",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-8292",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-8292",
+        "name" : "NVD"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+    } ],
+    "cwes" : [ 200 ],
+    "description" : "System.Net.Http in rh-dotnetcore10 and rh-dotnetcore11 is vulnerable to an information disclosure. The library does not clear it's authentication headers during redirection, allowing a malicious user to use a redirect to gain access to information in the authentication header.",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Information Disclosure",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-8292"
+    } ],
+    "created" : "2019-01-15T09:25:05.361Z",
+    "published" : "2018-10-10T13:29:01.213Z",
+    "affects" : [ {
+      "ref" : "nuget:system.net.http::4.1.0:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=4.1.0|<=4.1.0",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-13041"
+    } ]
+  }, {
+    "bom-ref" : "nuget:log4net::2.0.8::CVE-2018-1285",
+    "id" : "CVE-2018-1285",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-25370",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/M2U233HVAQDSZ2PRG4XSGDASLY3J6ALH/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/rdbac24c945ca5c69cd5348b5ac023bc625768f653335de146e09ae2d%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/rd2d72a017e238d1f345f9d14e075c81be16fc68a41c9e9ad9e29a732%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r7ab6b6e702f11a6f77b0db2af2d5e5532f56ae4b99b5fe73c5200b6a%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r6543acafca3e2d24ff4b0c364a91540cb9378977ffa8d37a03ab4b0f%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r525cbbd7db0aef4a114cf60de8439aa285decc34904d42a7f14f39c3%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r33564de316d4e4ba0fea1d4d079e62cde1ffe64369c1157243d840d9%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r00b16ac5e0bbf7009a0d167ed58f3f94d0033b0f4b3e3d5025cc4872%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r9de86a185575e6c5f92e2a70a1d2e2e9514dc4341251577aac8e3866%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://security.netapp.com/advisory/ntap-20220909-0001/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VT2DNNSW7C7FNK3MA3SLEUHGW5USYZKE/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VKL2LPINAI6BCMXOH4V4HVHGLUXIWOFO/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpujan2021.html",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/rdbac24c945ca5c69cd5348b5ac023bc625768f653335de146e09ae2d@%3Cdev.logging.apache.org%3E",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://security.netapp.com/advisory/ntap-20220909-0001",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://www.whitesourcesoftware.com/vulnerability-database/CVE-2018-1285",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r7ab6b6e702f11a6f77b0db2af2d5e5532f56ae4b99b5fe73c5200b6a@%3Cdev.logging.apache.org%3E",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1285",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://www.nuget.org/packages/log4net",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M2U233HVAQDSZ2PRG4XSGDASLY3J6ALH",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://issues.apache.org/jira/browse/LOG4NET-575",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r00b16ac5e0bbf7009a0d167ed58f3f94d0033b0f4b3e3d5025cc4872@%3Cdev.logging.apache.org%3E",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r525cbbd7db0aef4a114cf60de8439aa285decc34904d42a7f14f39c3@%3Cdev.logging.apache.org%3E",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r6543acafca3e2d24ff4b0c364a91540cb9378977ffa8d37a03ab4b0f@%3Cdev.logging.apache.org%3E",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://snyk.io/vuln/SNYK-DOTNET-LOG4NET-568897",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VT2DNNSW7C7FNK3MA3SLEUHGW5USYZKE",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/rd2d72a017e238d1f345f9d14e075c81be16fc68a41c9e9ad9e29a732@%3Cdev.logging.apache.org%3E",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r9de86a185575e6c5f92e2a70a1d2e2e9514dc4341251577aac8e3866@%3Cdev.logging.apache.org%3E",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/reab1c277c95310bad1038255e0757857b2fbe291411b4fa84552028a%40%3Cdev.logging.apache.org%3E",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpuApr2021.html",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r33564de316d4e4ba0fea1d4d079e62cde1ffe64369c1157243d840d9@%3Cdev.logging.apache.org%3E",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VKL2LPINAI6BCMXOH4V4HVHGLUXIWOFO",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://github.com/apache/logging-log4net",
+        "name" : "CROSS_REFERENCE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r9de86a185575e6c5f92e2a70a1d2e2e9514dc4341251577aac8e3866%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r7ab6b6e702f11a6f77b0db2af2d5e5532f56ae4b99b5fe73c5200b6a%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r6543acafca3e2d24ff4b0c364a91540cb9378977ffa8d37a03ab4b0f%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://security.netapp.com/advisory/ntap-20220909-0001/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r33564de316d4e4ba0fea1d4d079e62cde1ffe64369c1157243d840d9%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r00b16ac5e0bbf7009a0d167ed58f3f94d0033b0f4b3e3d5025cc4872%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r525cbbd7db0aef4a114cf60de8439aa285decc34904d42a7f14f39c3%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VT2DNNSW7C7FNK3MA3SLEUHGW5USYZKE/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VKL2LPINAI6BCMXOH4V4HVHGLUXIWOFO/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/M2U233HVAQDSZ2PRG4XSGDASLY3J6ALH/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/rdbac24c945ca5c69cd5348b5ac023bc625768f653335de146e09ae2d%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2018-1285",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/rd2d72a017e238d1f345f9d14e075c81be16fc68a41c9e9ad9e29a732%40%3Cdev.logging.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1285",
+        "name" : "NVD"
+      },
+      "score" : 9.800000190734863,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1285",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-25370",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 6.400000095367432,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L"
+    } ],
+    "cwes" : [ 611 ],
+    "description" : "log4net is vulnerable to XML external entity attacks. External DTDs are enabled by default and allow attackers to perform XXE attacks using malicious XML data and documents.",
+    "recommendation" : "2.1.0",
+    "advisories" : [ {
+      "title" : "XML External Entities (XXE)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1285"
+    } ],
+    "created" : "2020-05-11T03:38:22.809Z",
+    "published" : "2020-05-11T17:15:10.923Z",
+    "affects" : [ {
+      "ref" : "nuget:log4net::2.0.8:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=2.0.7|<=2.0.9",
+        "status" : "affected"
+      }, {
+        "version" : "2.1.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-25370"
+    } ]
+  }, {
+    "bom-ref" : "nuget:system.data.sqlclient::4.8.2::CVE-2024-0056",
+    "id" : "CVE-2024-0056",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-45176",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-0056",
+      "source" : {
+        "url" : "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-0056",
+      "source" : {
+        "url" : "https://github.com/dotnet/announcements/issues/292",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2024-0056",
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-0056",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-0056",
+        "name" : "NVD"
+      },
+      "score" : 8.699999809265137,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-45176",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.599999904632568,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N"
+    } ],
+    "cwes" : [ ],
+    "description" : "Microsoft.Data.SqlClient is vulnerable to Credential Exposure. The vulnerability is due to improper handling of TLS connections, allowing an attacker to read or modify traffic between the server and client. The attacker would have to position themself between the client and server, resulting in database credential exposure.",
+    "recommendation" : "4.8.6",
+    "advisories" : [ {
+      "title" : "Credential Exposure",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-0056"
+    } ],
+    "created" : "2024-01-26T15:02:36.607Z",
+    "published" : "2024-01-09T18:15:46.783Z",
+    "affects" : [ {
+      "ref" : "nuget:system.data.sqlclient::4.8.2:",
+      "versions" : [ {
+        "range" : "vers:NUGET/>=1.0.0-beta1|<=4.8.5",
+        "status" : "affected"
+      }, {
+        "version" : "4.8.6",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NUGET/CSHARP/sid-45176"
+    } ]
+  } ]
+}
